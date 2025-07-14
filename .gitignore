@@ -209,3 +209,6 @@ __marimo__/
 # Data: 
 *.csv
 splits/
+
+# Model output
+model_output/

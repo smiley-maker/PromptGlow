@@ -13,7 +13,7 @@ class PromptGenerator:
             max_length=max_length,
             do_sample=True,
             top_p=0.95,
-            temperature=0.8
+            temperature=0.3
         )
         print(f"Base Model Outputs: {outputs}")
         val = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
